@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry including="**/*.java" kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-21">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="target/generated-sources/annotations">
+		<attributes>
+			<attribute name="ignore_optional_problems" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="m2e-apt" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="target/generated-test-sources/test-annotations">
+		<attributes>
+			<attribute name="ignore_optional_problems" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="m2e-apt" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DAM/.m2/repository/org/openjfx/javafx-graphics/23.0.1/javafx-graphics-23.0.1-win.jar" sourcepath="C:/Users/DAM/.m2/repository/org/openjfx/javafx-graphics/23.0.1/javafx-graphics-23.0.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Users/DAM/.m2/repository/org/openjfx/javafx-graphics/23.0.1/javafx-graphics-23.0.1-javadoc.jar!/"/>
+			<attribute name="module" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.openjfx"/>
+			<attribute name="maven.artifactId" value="javafx-graphics"/>
+			<attribute name="maven.version" value="23.0.1"/>
+			<attribute name="maven.classifier" value="win"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DAM/.m2/repository/org/openjfx/javafx-controls/24-ea+15/javafx-controls-24-ea+15-win.jar" sourcepath="C:/Users/DAM/.m2/repository/org/openjfx/javafx-controls/24-ea+15/javafx-controls-24-ea+15-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="module" value="true"/>
+			<attribute name="javadoc_location" value="jar:file:/C:/Users/DAM/.m2/repository/org/openjfx/javafx-controls/24-ea+15/javafx-controls-24-ea+15-javadoc.jar!/"/>
+			<attribute name="maven.groupId" value="org.openjfx"/>
+			<attribute name="maven.artifactId" value="javafx-controls"/>
+			<attribute name="maven.version" value="24-ea+15"/>
+			<attribute name="maven.classifier" value="win"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DAM/.m2/repository/nz/ac/waikato/cms/weka/weka-stable/3.8.0/weka-stable-3.8.0.jar" sourcepath="C:/Users/DAM/.m2/repository/nz/ac/waikato/cms/weka/weka-stable/3.8.0/weka-stable-3.8.0-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="javadoc_location" value="jar:file:/C:/Users/DAM/.m2/repository/nz/ac/waikato/cms/weka/weka-stable/3.8.0/weka-stable-3.8.0-javadoc.jar!/"/>
+			<attribute name="maven.groupId" value="nz.ac.waikato.cms.weka"/>
+			<attribute name="maven.artifactId" value="weka-stable"/>
+			<attribute name="maven.version" value="3.8.0"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

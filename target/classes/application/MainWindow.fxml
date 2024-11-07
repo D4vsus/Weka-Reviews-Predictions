@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainWindowController">
+   <center>
+      <TextArea fx:id="inputArea" onInputMethodTextChanged="#predict" onKeyTyped="#predict" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+   </center>
+   <bottom>
+      <Label fx:id="feedBack" BorderPane.alignment="CENTER" />
+   </bottom>
+</BorderPane>
