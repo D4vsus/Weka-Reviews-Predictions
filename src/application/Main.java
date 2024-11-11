@@ -3,6 +3,7 @@ package application;
 import javafx.application.Application;
 import javafx.stage.Stage;
 import javafx.scene.Scene;
+import javafx.scene.control.Alert;
 import javafx.scene.layout.BorderPane;
 import javafx.fxml.FXMLLoader;
 
@@ -18,7 +19,7 @@ public class Main extends Application {
 	
 	/**
 	 * <h1>start()</h1>
-	 * <p>Initialize the application</p>
+	 * <p>Initialize the application</p>t
 	 */
 	@Override
 	public void start(Stage primaryStage) {
@@ -31,7 +32,10 @@ public class Main extends Application {
 			primaryStage.setTitle("Weka example");
 			primaryStage.show();
 		} catch(Exception e) {
-			e.printStackTrace();
+			Alert alert = new Alert(Alert.AlertType.ERROR);
+			alert.setContentText(e.toString());
+			alert.setTitle("Error");
+			alert.show();
 		}
 	}
 	
